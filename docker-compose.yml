@@ -1,5 +1,6 @@
 services:
   app:
+    image: cherry-ruby-practice-app:3.4.12
     build: .
     command: tail -f /dev/null
     volumes:
